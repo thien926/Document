@@ -1,0 +1,91 @@
+JavaScript Debugger (Nightly)
+===========================
+I.	VSCode
+	1.	Code Spell Checker
+		Đây là một trình kiểm tra chính tả cơ bản hoạt động tốt với mã camelCase . Về cơ bản nó giúp trong bắt lỗi chính tả phổ biến trong khi vẫn giữ các số dương tính giả thấp.
+	2.	vscode-icons : icon cho thư mục và file trong vscode
+	3.	EditorConfig for VS Code
+	4.	One Dark Pro
+	5.	Prettier - Code formatter : Format code
+
+
+	
+II.	Html
+	1.	Bootstrap 3 Snippets - cần 	
+	2.	Font Awesome Auto-complete & Preview
+	3.	Font-awesome codes for html (snippets)
+	4.	Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+	5.	Auto Close Tag : tự động đóng thẻ - cần
+	6.	Auto Rename Tag : đổi tên thẻ mở thì thẻ đóng đổi theo - cần
+
+
+III.Angular
+	1. Path Intellisense 
+	2. Angular Snippets
+	3. Angular2-Switcher
+	4. Angular Files
+	5. REST Client
+	6. JSON to TS
+	7. Angular Language Service
+	8. Angular2-Inline
+	9.  TSLint
+	10. Material Icon Theme (có vscode-icons thay thế rồi)
+
+IV.	React
+	1.	ESLint - cần (extention tra lỗi)
+		Nó tích hợp ESLint vào hệ thống VS Code của bạn. Các ESLint tĩnh phân tích mã của bạn để nhanh chóng tìm thấy vấn đề.
+
+	2.	open native terminal
+		Việc phải duyệt qua lại giữa các thư mục (sử dụng lệnh “cd <tên thư mục>”) trong terminal thật là mệt mỏi . Tiện ích nhỏ này giúp bạn mở terminal  và con trỏ đang ở thư mục gốc dự án luôn.
+
+		Bạn có thể mở terminal ở bất kỳ đâu, chỉ đơn giản là chuột phải và chọn ” Open in native terminal (current folder)” hoặc “Open in native terminal (root folder)“.
+
+	3.	React PropTypes Generate
+		Việc phải thêm các propTypes thủ công rất thời gian. Tiện ích này sẽ tự động tạo propTypes. Bạn chỉ việc chọn component và  nhấn tổ hợp phím ” ctrl + shift + alt + p”. Tiện ích này khá giống với ReactPropTypes trong Jetbrains’s Platform.
+
+	4.	Reactjs code snippets - cần (rất quan trọng - tạo nhanh các component)
+		Mỗi khi bạn tạo một file mới, thông thường bạn sẽ phải tự thêm các component skeleton, component có thể là một class, function, hooks, redux… Tiện ích này sẽ giúp bạn tạo tất cả các đoạn mã đó chỉ với một nhấp chuột.
+
+		Reactjs code snippet có sẵn các đoạn mã cho React dựa trên babel-sublime-snippets package. Reactjs code snippets có khoảng 50 đoạn mã khác nhau, hỗ trợ 4 ngôn ngữ (file extensions):
+
+		JavaScript (.js)
+		TypeScript (.ts)
+		JavaScript React (.jsx)
+		TypeScript React (.tsx)
+
+	5.	VSCode React Refactor
+		Bất kể dự án nào, viết bởi ngôn ngữ gì thì đều nên viết code thật clean, tuân thủ các nguyên tắc viết code. Với dự án React cũng vậy. Nếu một ngày, bạn nghĩ mình cần phải refactoring lại mã nguồn dự án thì đây chính tiện ích dành cho bạn.
+
+		Một vài tính năng hữu ích của tiện ích này:
+
+		Hỗ trợ Extract JSX element thành một file hoặc function
+		Hỗ trợ cả TypeScript và TSX
+		Làm việc tốt với cả Class, function và arrow functions.
+		Xử lý key attribute và function bindings
+		Làm việc tốt với các Hooks API mới.
+		
+	6.	Babel JavaScript
+	7.	html to JSX
+		Convert html to JSX
+	8.	ES7 React/Redux/GraphQL/React-Native snippets
+
+
+V.	C#
+	1.	C#
+	2.	C# Extensions
+	3.	C# Snippets
+	4.	ASP.NET Core Snippets
+	5.	NuGet Gallery
+
+
+=============================================================================================
+
+I.	Extentions cần thiết nhất cho REACT
+	1.	ESLint
+	2.	ES7 React/Redux/GraphQL/React-Native snippets
+	3.	html to JSX
+
+II.	Extentions cần thiết nhất cho HTML
+	1.	Bootstrap 3 Snippets 
+	2.	Auto Close Tag 
+	3.	Auto Rename Tag

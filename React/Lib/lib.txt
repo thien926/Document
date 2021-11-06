@@ -1,0 +1,21 @@
+==================== Thư viện Third-Party: =================
+1.  https://lodash.com/
+2.  npm i --save lodash
+
+======================= THƯ VIỆN REDUX =====================
+1.  Cài đặt thư viện Redux: npm install redux --save (dùng lệnh 2)
+2.  Muốn kết nối React với Redux thì : npm install redux react-redux -- save (dùng lệnh này - ko dùng lệnh 1)
+Hoặc: npm install redux react-redux @reduxjs/toolkit
+
+======================= REACT-ROUTER-DOM =======================
+1.  npm install react-router-dom --save
+
+==========================ATLASSIAN===============
+1.	https://atlassian.design/
+2.	Chưa button, textfield, icon, ...
+3.	npm install @atlaskit/button @atlaskit/textfield @atlaskit/icon
+4.	npm install --save styled-components
+
+==========================UUID================
+1.	Thư viện tạo id: https://www.npmjs.com/package/uuid
+1.	npm install --save uuid

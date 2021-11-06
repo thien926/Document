@@ -1,0 +1,62 @@
+I.  Tập hợp các lệnh ( https://docs.microsoft.com/en-us/ef/core/cli/dotnet 
+                        https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet)
+    <=> Package Manager Console
+        1.  Cài đặt các công cụ
+            1.1 Cài đặt các công cụ Bảng điều khiển Trình quản lý Gói bằng cách chạy lệnh sau trong Bảng 
+                Điều khiển Trình quản lý Gói :
+
+                Install-Package Microsoft.EntityFrameworkCore.Tools
+
+            1.2 Cập nhật các công cụ bằng cách chạy lệnh sau trong Bảng điều khiển Trình quản lý Gói:
+
+                Update-Package Microsoft.EntityFrameworkCore.Tools
+
+        2.  Xác minh cài đặt
+            2.1 Xác minh rằng các công cụ đã được cài đặt bằng cách chạy lệnh này:
+
+                Get-Help about_EntityFrameworkCore
+    <=> .NET Core CLI
+        1.  Cài đặt các công cụ
+            1.1 dotnet efcó thể được cài đặt như một công cụ toàn cầu hoặc cục bộ. Hầu hết các nhà phát triển 
+                thích cài đặt dotnet efnhư một công cụ toàn cầu bằng cách sử dụng lệnh sau:
+
+                dotnet tool install --global dotnet-ef
+
+            1.2 Cập nhật công cụ bằng lệnh sau:
+
+                dotnet tool update --global dotnet-ef
+
+            1.3 Trước khi có thể sử dụng các công cụ trên một dự án cụ thể, bạn cần thêm 
+                Microsoft.EntityFrameworkCore.Designgói vào đó.
+
+                dotnet add package Microsoft.EntityFrameworkCore.Design
+
+II. Các lệnh chạy đồ án MVC - Clean Architecture
+    1.  Tạo thư mục chứa project (CNPM_MyPham_Project - thư mục chứa tất cả)
+
+    2.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet new sln
+    3.  Tạo project: PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet new mvc -o CNPM_MyPham
+
+    4.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet tool install --global dotnet-ef
+    5.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet add package Microsoft.EntityFrameworkCore.Design
+    6.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet add package Microsoft.EntityFrameworkCore.Tools
+    
+    7.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> Dotnet new classlib -n Application
+    8.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> Dotnet new classlib -n Domain
+    9.  PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> Dotnet new classlib -n Infrastructure
+
+    10. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet add reference ../Application
+    11. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet add reference ../Domain 
+    12. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\CNPM_MyPham> dotnet add reference ../Infrastructure
+
+    13. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\Application> dotnet add reference ../Domain 
+
+    14. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project\Infrastructure> dotnet add reference ../Domain
+
+    15. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet sln add CNPM_MyPham
+    16. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet sln add Application
+    17. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet sln add Domain 
+    18. PS E:\cthang\NetCoreMVC\CNPM_MyPham_Project> dotnet sln add Infrastructure
+
+
+

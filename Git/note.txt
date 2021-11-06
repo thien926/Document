@@ -1,0 +1,7 @@
+https://shareprogramming.net/tong-hop-35-lenh-git-co-ban/
+
+git init
+git remote add origin https://github.com/thien926/React.git
+git add .
+git commit -m "first commit"
+git push -u origin master

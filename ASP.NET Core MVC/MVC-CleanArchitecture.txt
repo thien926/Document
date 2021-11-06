@@ -1,0 +1,65 @@
+I.  Lệnh tạo kiến trúc MVC - Clean Architecture
+    1.  Tạo thư mục chứa solution và project (MVC_Movie - thư mục chứa tất cả)
+
+    2.  Tạo 1 solution tại thư mục MVC_Movie: PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet new sln
+    3.  Tạo project: PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet new mvc -o MVC_Movie
+
+    4.  PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet tool install --global dotnet-ef
+    5.  PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add package Microsoft.EntityFrameworkCore.Design
+    6.  PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add package Microsoft.EntityFrameworkCore.Tools
+    
+    7.  PS E:\cthang\NetCoreMVC\MVC_Movie> Dotnet new classlib -n Application
+    8.  PS E:\cthang\NetCoreMVC\MVC_Movie> Dotnet new classlib -n Domain
+    9.  PS E:\cthang\NetCoreMVC\MVC_Movie> Dotnet new classlib -n Infrastructure
+
+    10. PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add reference ../Application
+    11. PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add reference ../Domain 
+    12. PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add reference ../Infrastructure
+
+    13. PS E:\cthang\NetCoreMVC\MVC_Movie\Application> dotnet add reference ../Domain 
+
+    14. PS E:\cthang\NetCoreMVC\MVC_Movie\Infrastructure> dotnet add reference ../Domain
+
+    15. PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet sln add MVC_Movie
+    16. PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet sln add Application
+    17. PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet sln add Domain 
+    18. PS E:\cthang\NetCoreMVC\MVC_Movie> dotnet sln add Infrastructure
+
+II. Các bước tạo thực thể
+    1.  Tại Domain: Tạo folder Entities chứa các thực thể - thể hiện trong server
+    2.  Tại Application 
+        2.1 Tạo folder DTOs chứa các DTO thực thể - thể hiện trên client
+        2.2 Tạo folder Mappings chứa các file maaping giữa các thực thể DTOs là thực thể Entities
+III.Các bước tạo EF (Database)
+    1.  PS E:\cthang\NetCoreMVC\MVC_Movie\Infrastructure> dotnet add package Microsoft.EntityFrameworkCore
+    2.  PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add package Microsoft.EntityFrameworkCore.Relational
+    3.  PS E:\cthang\NetCoreMVC\MVC_Movie\MVC_Movie> dotnet add package Microsoft.EntityFrameworkCore.Sqlite 
+    4.  Tại Infrastructure\Persistence: MVCDbContext.class
+    5.  Tại appsettings.json , thêm dòng này:
+        "ConnectionStrings": {
+            "Default": "Data Source=MVC.DB",
+            "MovieDB": "Server=(localdb)\\mssqllocaldb;Database=MVCDB;Trusted_Connection=True;"
+        }
+    6.  Startup.cs > ConfigureServices :
+        services.AddDbContext<MVCDbContext>(options => 
+                options.UseSqlite(Configuration.GetConnectionString("Default")));
+    7.  Tại Infrastructure/Persistence , tạo SeedData.cs thêm dữ liệu
+    8.  Tại Program.cs => hàm Main
+            var host = CreateHostBuilder(args).Build();
+            using(var scope = host.Services.CreateScope()){
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<MVCDbContext>();
+                SeedData.Initialize(context);
+            }
+            host.Run();
+=== Trang này là trang admin 
+
+IV. Tạo các dịch vụ truy xuất dữ liệu - Repository
+    1.  Tại Domain tạo folder Repositories chứa các interface
+
+
+=================================== Data Annotation Attributes =================================
+(attribute link: https://www.learnentityframeworkcore.com/configuration/data-annotation-attributes)
+(fluent - api link: https://www.learnentityframeworkcore.com/configuration/fluent-api)
+(link: https://docs.microsoft.com/en-us/ef/core/modeling/generated-properties?tabs=data-annotations)
+

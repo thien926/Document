@@ -1,0 +1,15 @@
+Ví dụ về Side Effect
+- Thực hiện gọi API
+- Thêm/xóa các event listeners('click', 'scroll', ...)
+- Thao tác DOM trực tiếp
+- Gọi Web APIs (setTimeout, setInterval, ...)
+...
+===========================================================
+1.  useEffect hoạt động như các componentDidMount & componentWillMount
+
+====================================
+1.  API giả: https://reqres.in/
+
+======================
+https://www.youtube.com/watch?v=9-2qTNawqxY&list=PLqQ6Lvascx2vJsROoPFq4jfh2EvKev3Sr&index=3
+https://codesandbox.io/s/ej2gb

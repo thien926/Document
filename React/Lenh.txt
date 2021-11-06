@@ -1,0 +1,92 @@
+1.  npm install -g create-react-app : download sourcecode từ trang github
+    npm install react-scripts@latest
+    npm i install-peers -D
+    npm run build
+2.  create-react-app lession01-helloreact, npx create-react-app my-app
+3.  npm start : để chạy
+4.  Muốn chạy với port khác: file package.json
+    "scripts": {
+        "start": "set port=4200 && react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+5.  
+
+
+=================== KHỞI TẠO PROJECT ĐẦU TIÊN ====================
+1.  npm install -g create-react-app
+2.  Tạo mới ứng dụng: npx create-react-app lession01-helloreact
+    (lession01-helloreact == lession02-component)
+3.  Chạy ứng dụng: npm start 
+4.  Đổi port tại package.json:
+    "start" : "set port=4200 && react-scripts start"
+
+================== SỬ DỤNG RESOURCE, TEMPLATE ====================
+1.  Bootstrap v3.3.7
+    -   Tải bootstrap về public và giải nén
+    -   Tại index.html ở public: 
+2.  Template
+3.  Materialize
+4.  Download và đưa thư mục vào public
+5.  Lưu ý: %PUBLIC_URL%
+
+================== COMPONENT ==========================
+1.  Tạo folder chứa các component
+2.  Tạo component
+3.  Tạo style
+
+===================== HANDING EVENT ============================
+1.  Cách sử dụng props - cách 1: truyền có tham số
+    1.1 
+        onClick={() => this.onAddToCart(this.props.name)}
+    1.2 Hàm onAddToCart
+        onAddToCart(text) {
+            alert(text);
+        }
+2.  Cách sử dụng props - cách 2:
+    2.1 Tạo constructor:
+        constructor(props) {
+            super(props);
+            this.onAddToCart = this.onAddToCart.bind(this);
+        }
+    2.2 
+        onClick={this.onAddToCart}
+    2.3 Hàm onAddToCart:
+        onAddToCart() {
+            alert(this.props.name);
+        }
+3.  Cách sử dụng props - cách 3: TỐI ƯU NHẤT
+    3.1 onClick={this.onAddToCart2}
+    3.2 
+        onAddToCart2 = () => {
+            alert(this.props.name);
+        }
+
+==================== Thư viện Third-Party: =================
+1.  https://lodash.com/
+2.  npm i --save lodash
+
+===================== ĐĂNG KÍ HOST =====================
+1.  vn.000webhost.com
+2.  freevnn.com
+3.  byet.host
+
+======================= THƯ VIỆN REDUX =====================
+1.  Cài đặt thư viện Redux: npm install redux --save (dùng lệnh 2)
+2.  Muốn kết nối React với Redux thì : npm install redux react-redux -- save (dùng lệnh này - ko dùng lệnh 1)
+Hoặc: npm install redux react-redux @reduxjs/toolkit
+
+======================= REACT-ROUTER-DOM =======================
+1.  npm install react-router-dom --save
+
+
+============================= LESSION-16-CALL-API=======================
+1.  npm install redux react-redux react-router-dom --save
+2.  Một số thư viện hỗ trợ kết nối API:
+    -   fetch API trong javascript
+    -   isomorphic-fetch
+    -   Axios:
+        +   Thư viện Http Client dựa trên Promise
+        +   Tài liệu tham khảo: github.com/axios/axios
+3.  npm install redux-thunk --save

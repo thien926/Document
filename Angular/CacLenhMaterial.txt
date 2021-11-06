@@ -1,0 +1,142 @@
+npm uninstall <package-name>
+ng remove/delete
+
+1.  Xem version angular: ng --version
+
+
+=================== NOTE =======================
+1. declarations : chứa các component
+2. imports :  chứa các thư viện
+3. Muốn sử dụng ngModel : thêm vào app.module.ts : import FormModule
+
+
+=================== TẠO PROJECT ===============
+1.  Tạo project : ng new material-demo
+2.  Tạo 1 component: ng g c --skip-tests=true componentName
+3.  Tạo 1 module: ng g m moduleName
+
+
+================== Thêm Angular Material ===================
+1.  Thêm angular material: ng add @angular/material
+2.  Chọn: Indigo/Pink
+3.  Set up global Angular: y
+4.  Set up browser animations: y
+
+
+================== TẠO PROJECT ANGULAR MATERIAL =================
+I.  Getting started
+    1.  Tạo project : ng new material-demo
+    2.  Thêm angular material: ng add @angular/material
+    3.  Chọn: Indigo/Pink
+    4.  Set up global Angular: y
+    5.  Set up browser animations: y
+    6.  Tại app.module.ts : 
+        import { MatButtonModule}  from '@angular/material/button';
+
+        @NgModule({
+          declarations: [
+            AppComponent
+          ],
+          imports: [
+            BrowserModule,
+            AppRoutingModule,
+            BrowserAnimationsModule,
+            MatButtonModule
+          ],
+          providers: [],
+          bootstrap: [AppComponent]
+        })
+    7.  html: 
+        <button mat-raised-button>Hello World</button>
+II. Material Module
+    1.  Chúng ta có thể bỏ qua bước 6 trong I và thực hiện các bước sau đây
+    2.  ng g m material : là module dùng để chứa các material
+    3.  Tại material.module.ts: 
+        
+        const MaterialCoponents = [
+          MatButtonModule
+        ]
+        @NgModule({
+          imports: [
+            MaterialCoponents
+          ],
+          exports: [
+            MaterialCoponents
+          ]
+        })
+    4.  Tại app.module.ts: 
+
+        @NgModule({
+          declarations: [
+            AppComponent
+          ],
+          imports: [
+            BrowserModule,
+            AppRoutingModule,
+            BrowserAnimationsModule,
+            MaterialModule
+            // MatButtonModule
+          ],
+          providers: [],
+          bootstrap: [AppComponent]
+        })
+III.  Typography
+        <div class="mat-display-4">This is display 4</div>
+        <div class="mat-display-3">This is display 3</div>
+        <div class="mat-display-2">This is display 2</div>
+        <div class="mat-display-1">This is display 1</div>
+        <br>
+        <div>Next</div>
+
+        <div class="mat-headline">This is a heading for h1</div>
+        <div class="mat-title">This is a heading for h2</div>
+        <div class="mat-subheading-2">This is a heading for h3</div>
+        <div class="mat-subheading-1">This is a heading for h4</div>
+
+        <div>Next</div>
+        <div class="mat-body-1">This is body text</div>
+        <div class="mat-body-2">This is bold body text</div>
+        <div class="mat-caption">This is caption text</div>
+
+        <div>Next</div>
+        <div class="mat-typography">
+            <h1>This is a heading for h1</h1>
+            <h2>This is a heading for h2</h2>
+            <h3>This is a heading for h3</h3>
+            <h4>This is a heading for h4</h4>
+        </div>
+IV. Buttons
+    1.  Thực hiện bước II
+    2.  Component : Button
+    3.  Tham khảo: https://material.angular.io/components/button/examples
+    4.  Note:
+        - disabledRipple:  vô hiệu hóa nhưng còn màu và hiệu ứng
+        - disabled: vô hiện hóa và ko còn màu và hiệu ứng
+V.  Button Toggle
+    1.  Tại material.module.ts: Thêm MatButtonToggleModule vào const MaterialCoponents
+    2.  Thảm khảo: https://material.angular.io/components/button-toggle/examples
+VI. Icons
+    1.  Tại material.module.ts: Thêm MatIconModule vào const MaterialCoponents 
+    2.  Tham khảo các icon:
+        https://fonts.google.com/icons
+        https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
+    3.  Tham khảo: https://material.angular.io/components/icon/examples
+
+VII.  Badges
+    1.  Tại material.module.ts: Thêm MatBadgeModule vào const MaterialCoponents 
+    2.  Tham khảo: https://material.angular.io/components/badge/overview
+VIII. Progress Spinner
+      1.  Tại material.module.ts: Thêm MatProgressSpinnerModule vào const MaterialCoponents 
+      2.  Tham khảo: https://material.angular.io/components/progress-spinner/overview
+IX. NavBar
+    1.  Tại material.module.ts: Thêm MatToolbarModule vào const MaterialCoponents 
+    2.  Tham khảo: https://material.angular.io/components/toolbar/overview
+
+... Các thành phần khác tương tự
+
+X.  Thêm css chung thì vào angular.json tại styles thêm "src/assets/css/font-awesome.min.css"
+      "styles": [
+          "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+          "src/styles.css",
+          "src/assets/css/font-awesome.min.css"
+      ],

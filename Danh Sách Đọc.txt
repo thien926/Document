@@ -1,0 +1,2 @@
+I.	C#
+	1.	https://sethphat.com/sp-396/cach-khoi-tao-foreign-key-voi-entity-frameworks

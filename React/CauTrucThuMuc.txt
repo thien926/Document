@@ -1,0 +1,5 @@
+====================== CÓ 2 DẠNG CẤU TRÚC THƯ MỤC =================
+1.  SỬ DỤNG reducer dạng switch-case bình thường:   https://github.com/uilibrary/matx-react/tree/master/src/app
+2.  SỬ DỤNG configureStore : npm install redux react-redux @reduxjs/toolkit
+    https://github.com/reduxjs/cra-template-redux/tree/master/template
+    https://codesandbox.io/s/github/reduxjs/redux-essentials-counter-example/tree/master/?from-embed

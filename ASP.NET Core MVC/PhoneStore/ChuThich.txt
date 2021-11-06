@@ -1,0 +1,4 @@
+1. DTOs chứa MoviesDto.cs  ==== Entities
+2. Services chứa MovieService.cs ====== Persistence chứa SanPhamEFcontext chức năng truy vấn dữ liệu
+3. Mappings dùng để Mapping DTOs với Entities
+4. 

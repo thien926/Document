@@ -1,0 +1,61 @@
+Dotnet tool install --global dotnet -ef
+Dotnet add package Microsoft.EntityFrameworkCore.Design
+Dotnet ef migrations add IntialCreate
+Dotnet ef database update
+Dotnet ef database update addratingtomovie(ten)
+Dotnet ef migration remove
+Dotnet ef migrations add IntialCreate -o Data/Migrations
+{
+
+Tải solution exploiner
+	Dotnet new sln
+	Dotnet sln add mvcMovie
+Click solution .
+	Dotnet new classlib -n Application
+	Dotnet new classlib -n Domain
+	Dotnet new classlib -n Infrastructure
+	Dotnet sln add Application
+	Dotnet sln add Domain
+	Dotnet sln add Infrastructure
+Mở solution
+	Dotnet build tại cleararchitecture
+
+cd Application
+dotnet add reference ../Domain
+
+cd ..
+cd Infrastructure
+dotnet add reference ../Domain
+
+cd ..
+cd CNPM_MyPham
+dotnet add reference ../Application
+dotnet add reference ../Domain
+dotnet add reference ../Infrastructure
+
+CleanArch> dotnet run --project 
+Di chuyển data xuống infrastructure và đổi tên thành Persistence
+Di chuyển Models xuống domain thành Entities
+
+}
+Ý nghĩa Application: use case, uses stories, business logic
+-Thin(móng) phối hợp các đối tượng để giải quyết nhiệm vụ.
+-Deligate(Ủy nhiệm) chuyên việc thực hiện sang tầng Domain
+
+-createcustomoer(string namem string email,string address){
+	var validation(name,email);//neu co
+	var cus = new customerDto()
+{ 
+	Name = name 
+	email = email
+	address = address
+	customerRepository.add(cus) => goi cho thang Persistence lam
+} 
+
+
+} 
+
+Visual studio
+{
+
+}
