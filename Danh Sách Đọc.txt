@@ -1,2 +1,30 @@
 I.	C#
 	1.	https://sethphat.com/sp-396/cach-khoi-tao-foreign-key-voi-entity-frameworks
+
+II.	Css
+	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height
+	2.	https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+	3.	https://fonts.google.com/icons
+
+III.React
+	1.	https://reactrouter.com/
+	2.	https://redux.js.org/
+	3.	https://lodash.com/docs/4.17.15
+	4.	https://popper.js.org/
+	5.	https://stackblitz.com/github/remix-run/react-router/tree/main/examples/multi-app?file=server.js
+	6.	https://stackoverflow.com/questions/33996484/using-multiple-layouts-for-react-router-components
+	7.	
+	8.
+
+IV.	Sping Java
+	1.	https://start.spring.io/
+
+V.	API ảo
+	1.	https://mockapi.io/
+	2.	https://github.com/typicode/json-server
+	
+VI.	Angular
+	1.	https://material.angular.io/components/button/api
+	2.	https://www.youtube.com/watch?v=jUfEn032IL8
+	3.	https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
+	4.	https://material.angular.io/guides
