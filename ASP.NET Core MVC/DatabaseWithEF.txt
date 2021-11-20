@@ -1,0 +1,25 @@
+1.	Turn off Cascade Delete : https://stackoverflow.com/questions/46526230/disable-cascade-delete-on-ef-core-2-globally
+
+	protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            
+            var cascadeFKs = modelBuilder.Model.GetEntityTypes()
+                .SelectMany(t => t.GetForeignKeys())
+                .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
+            foreach (var fk in cascadeFKs)
+                fk.DeleteBehavior = DeleteBehavior.Restrict;
+
+            base.OnModelCreating(modelBuilder);
+
+        }
+2.	Turn off Cascade Delete for a Table
+	var cascadeFKs = modelBuilder.Model.GetEntityTypes()
+        .SelectMany(t => t.GetForeignKeys())
+        .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
+
+    foreach (var fk in cascadeFKs){
+        if(fk.GetConstraintName().Contains("FK_ChiTietHDs_SanPhams_productId") || 
+            fk.GetConstraintName().Contains("FK_ChiTietPNs_SanPhams_productId")){
+                fk.DeleteBehavior = DeleteBehavior.Restrict;
+            }
+    }
