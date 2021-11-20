@@ -1,0 +1,15 @@
+1.	Export like script:	https://stackoverflow.com/questions/1515969/exporting-data-in-sql-server-as-insert-into
+	
+	-	Tasks
+	-	Generate Scripts
+	-	Tại Set Scripting Options 
+		+	Advanced
+		+	Type of data to Script : Schema and data or Data only
+		+ 	Rồi cứ tiếp tục
+
+2.	Backup Database
+	-	Chọn Database cần Backup
+	-	Tasks > Detach
+	- 	Vào thư mục chứa [file_name_database].mdf
+	-	Copy 2 file: [file_name_database].mdf và [file_name_database]_log.ldf chuyển đến chỗ cần backup
+	-	Chuột phải database để Attach database cũ vào sqlserver
