@@ -41,3 +41,5 @@ III.Cách tạo 1 table và database
         dotnet ef migrations add CreateKieuDaysTable
     8.  dotnet ef database update  để update database cho sqlserver
     9.  Tương tự cho các Model còn lại (cái nào đã làm rồi thì không làm nữa)
+
+IV. Database and authencation: https://www.youtube.com/watch?v=FSUa8Vd-td0
