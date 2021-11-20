@@ -1,4 +1,4 @@
-1.	Turn off Cascade Delete : https://stackoverflow.com/questions/46526230/disable-cascade-delete-on-ef-core-2-globally
+I.	Turn off Cascade Delete : https://stackoverflow.com/questions/46526230/disable-cascade-delete-on-ef-core-2-globally
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -12,7 +12,8 @@
             base.OnModelCreating(modelBuilder);
 
         }
-2.	Turn off Cascade Delete for a Table
+
+II.	Turn off Cascade Delete for a Table
 	var cascadeFKs = modelBuilder.Model.GetEntityTypes()
         .SelectMany(t => t.GetForeignKeys())
         .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
@@ -23,3 +24,20 @@
                 fk.DeleteBehavior = DeleteBehavior.Restrict;
             }
     }
+
+III.Cách tạo 1 table và database
+    1.  Thiết lập kết nối database tại appsettings.json (trước đó tạo database trong sqlserver)
+        "ConnectionStrings": {
+            "DefaultConnection": "Data Source=DESKTOP-06LRG85\\SQLEXPRESS; Initial Catalog=CLOCKSTOREWEB;Integrated Security=true; uid=sa; password=1234567890"
+        }
+    2.  Tạo ClockStoreDBContext tại Repositories
+    3.  Startup
+    4.  Tạo Model KieuDay
+    5.  public DbSet<KieuDay> KieuDays { get; set; } tại ClockStoreDBContext
+    6.  Tại Startup.cs tạo kết nối với database để khi chạy có thể kết nối
+        services.AddDbContext<ClockStoreDBContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+    7.  Tạo database bằng migrations (Xóa thì: dotnet ef migrations remove)
+        dotnet ef migrations add CreateKieuDaysTable
+    8.  dotnet ef database update  để update database cho sqlserver
+    9.  Tương tự cho các Model còn lại (cái nào đã làm rồi thì không làm nữa)
