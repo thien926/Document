@@ -1,0 +1,36 @@
+1.	sudo apt install git
+2.	Check version : 
+	git version
+
+3.	Xóa git: 
+	sudo apt-get remove git
+
+4.	Thiết lập username, email, password cho git
+	4.1	git config --list
+	4.2	git config --global user.username Thien\ Nguyen
+	4.3	git config user.username
+	4.4	git config --global user.email tructruong.070202@gmail.com
+	4.5	git config --global user.password <phần nhập password>
+
+5. 	Xóa bỏ username, email, password
+	5.1	git config --global --unset user.username
+	5.2 git config --global --unset user.email
+	5.3 git config --global --unset user.password
+
+6.	Clone một repository từ github về local
+	6.1	git clone https://github.com/thien926/Document.git
+	6.2 Clone và đổi tên thư mục: git clone https://github.com/thien926/Document.git MyFolder
+
+7.	git status
+	7.1	git status
+	7.2 git add .
+	7.3 git commit -m "modified"
+
+8.	git add
+	8.1	Thêm những file mới vào: git add .
+	8.2 Chỉ thêm những thay đổi của những file đã được theo dõi trước đó(ko quan tâm file mới): 
+		git add -u
+	8.3	Những file mới, file cũ được sửa đổi đều được thêm vào để commit 
+		git add -A
+9.	Tạo local repository và push lên remote repository
+	9.1	git remote add origin https://github.com/thien926/React.git
