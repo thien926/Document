@@ -33,4 +33,5 @@
 	8.3	Những file mới, file cũ được sửa đổi đều được thêm vào để commit 
 		git add -A
 9.	Tạo local repository và push lên remote repository
-	9.1	git remote add origin https://github.com/thien926/React.git
+	9.1	git remote set-url add origin https://github.com/thien926/React.git
+	9.2 Tham khảo: https://200lab.io/blog/cach-giai-quyet-loi-password-authentication-github/

@@ -1,4 +1,5 @@
 https://shareprogramming.net/tong-hop-35-lenh-git-co-ban/
+https://200lab.io/blog/cach-giai-quyet-loi-password-authentication-github/
 
 git init
 git remote add origin https://github.com/thien926/React.git
