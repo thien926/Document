@@ -1,0 +1,14 @@
+
+===================== HỌC GIT =======================
+
+1.	Học Git(3/3/2019): https://www.youtube.com/watch?v=JK9EppK6kxI&list=PLE1qPKuGSJaCGalY_6vhlswzLnTufdWIV
+2.	Git Cơ Bản(9/7/2021): https://www.youtube.com/watch?v=cC7vg8lWneo
+3.	Quản ý source code với Git(13/9/2016): https://www.youtube.com/watch?v=Mx9gcGFlEgw&list=PLRhlTlpDUWsxdl2IrPgo08LC0sKceVcMf
+4.	Git cơ bản và nâng cao (20/4/2020): https://www.youtube.com/watch?v=sXeiez_SGNI&list=PLjCpH2Qpki-uBzaBg447zIPNKyWJwPXYr
+
+
+===================== WEBSITE GIT ===================
+
+1.	https://backlog.com/git-tutorial/vn/intro/intro1_1.html
+2.	https://github.com/congzing/GitLearning
+3.	https://github.com/hocchudong/git-github-for-sysadmin
