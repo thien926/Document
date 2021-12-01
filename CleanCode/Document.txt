@@ -1,0 +1,114 @@
+
+I.	Quy tắc đặt tên:
+	Đây là cái mà có thể nhiều bạn chưa biết đến đây này. Một số nguyên tắc đặt tên của các ông dev (trước giờ là đều làm vậy)
+
+	1.	Tên biến, function viết hoa trữ cái đầu nhưng trừ chữ đầu tiên. Ví dụ: duongDinh24, hoVaTen, _isPassWord . . .
+
+	2.	Tên lớp phải bắt đầu bằng trữ in hoa.
+	
+	3.	Tên của file làm việc khi code thường có dấu –
+
+	4.	Để chuyên nghiệp thì tên variable, function, class . . . nên đặt bằng tiếng anh (không nhất thiết nhưng thực ra chúng ta nên làm quen dần với điều này)
+	
+	5.	Đặt tên biến dễ gợi nhớ, dễ cho cả người lập trình và người đọc code. Cẩn thận thì thêm chú thích vào cho chắc nhé!
+	
+	6.	Tên hằng số thì nên viết hoa hết, các từ cách nhau bằng dấu gạch _
+	
+	7.	Đặt tên biến một cách bao quát, giải thích tác dụng, lý do nó tồn tại, giá trị mà nó trả về.
+	
+	8.	Tên đặt phải làm rõ nghĩa, tránh bị sai lạc, hiểu sai vấn đề.
+	
+	9.	Dùng một cái tên dễ dàng đọc, có thể đọc được và tuyệt đối không được sai chính tả nhé!
+	
+	10.	Tên biến, hàm, lớp nên đặt một cách dễ tìm kiếm, dễ nhớ. Điều này rất thuận lợi với chúng ta khi code
+
+
+II.	Hướng dẫn đặt tên biến: 
+	https://codelearn.io/sharing/dat-ten-bien-chuan-ngay-tu-khi-bat-dau-phan-1
+	https://codelearn.io/sharing/dat-ten-bien-chuan-ngay-tu-khi-bat-dau-phan-2
+
+	1. Biến số nguyên (integers)
+	Một số giá trị chắc chắn là số nguyên, như biến tuổi hoặc năm. Mọi người đều hiểu ngay rằng biến tuổi hoặc biến năm là một số và cụ thể hơn là số nguyên. Vì vậy, bạn không phải thêm bất cứ thứ gì vào tên biến nữa.
+	Một trong những loại biến số nguyên được sử dụng nhiều nhất là đếm số lượng của một cái gì đó. Bạn sẽ nhìn thấy các loại biến đó trong hầu như các đoạn code. Trong trường hợp này, hãy sử dụng quy ước sau để đặt tên cho các loại biến đó: numberOf<Something> hoặc <Something>Count. Ví dụ: numberOfTickets hoặc ticketCount. Bạn có thể sử dụng tên biến là tickets, nhưng vấn đề với tên biến đó là nó không xác định rõ loại biến và một biến có tên là tickets thường mang nghĩa là một tập hợp (ví dụ: một mảng hoặc một danh sách).
+	Nếu đơn vị của một biến không hiển nhiên, hãy thêm một mô tả đơn vị ở cuối tên biến. Ví dụ, thay vì tooltipShowDelay, bạn có thể sử dụng tooltipShowDelayInMillis hoặc thậm chí là tooltipShowDelayInMillisecs để rõ nghĩa hơn.
+
+	2. Số dấu phẩy động (Floating-Point Numbers)
+	Số dấu phẩy động không quá phổ biến như số nguyên, nhưng thỉnh thoảng bạn cũng cần chúng. Một số giá trị thực chất là các số có dấu phẩy động, như giá tiền, chiều cao, chiều rộng hoặc trọng lượng. Nếu bạn nghĩ rằng bạn cần lưu trữ một giá trị đo, thì nên sử dụng biến này.
+	Nếu tôi cần lưu trữ một số lượng không phải là số nguyên, tôi sử dụng một biến có tên <Something>Amount, ví dụ rainfallAmount hoặc moneyAmount. Khi tôi thấy số lượng (amount) của một thứ gì đó trong code, tôi nghĩ rằng đó là một số dấu phẩy động.
+	Nếu đơn vị của một biến không rõ ràng, tôi thêm một mô tả đơn vị ở cuối tên biến, như widthInCentimet, rainFallAmountInInchesPerHour, angleInDegrees, failPercent hoặc failRatio.
+
+	3. Booleans
+	Các biến Boolean chỉ có thể có một trong hai giá trị: true hoặc false. Hãy chắc chắn rằng bạn đặt tên cho các biến boolean theo mẫu sau: isSomething, hasSomething, doesSomething, didSomething, shouldDoSomething hoặc willDoSomething. Một số ví dụ khác như: isDisabled, hasErrors, allowsWhitespace, didUpdate, shouldUpdate, willUpdate. Một tên biến boolean chuẩn là tên ở dạng câu hỏi trong đó câu trả lời là đúng/sai hoặc có/không.
+
+
+
+	4. Chuỗi (string)
+	Các biến chuỗi rất phổ biến trong lập trình, như tên, tiêu đề, thành phố hoặc quốc gia. Khi cần lưu trữ dữ liệu số trong chuỗi hãy đặt tên rõ ra như sau <someValue>String hoặc <someValue>AsString.
+	Đoạn code sẽ trở nên rõ ràng hơn và dễ đọc hơn. Ví dụ:
+
+	// Javascript
+	const year = parseInt(yearAsString, 10); 
+	5. Arrays, Lists và Sets
+	Khi đặt tên những biến này, nên sử dụng dạng số nhiều của danh từ, như customers, errors hoặc tasks. Trong hầu hết các trường hợp, đặt tên như vậy là đủ bởi vì bạn không nhất thiết phải biết thêm thông tin gì cho biến này. Nhưng đôi khi bạn cũng có thể chỉ định việc thực hiện trong tên của biến. Ví dụ: queueOfTask, stackOfCards hoặc orderedSetOfTimestamps. Đừng bao giờ sử dụng một dạng tên biến số không ở số nhiều, như customerList hoặc handleOperationset, vì nó làm cho tên biến dài hơn một chút và trong nhiều trường hợp không cần thiết sẽ gây ra hiểu nhầm và bạn phải thực thi các hành động không cần thiết để kiểm tra lại biến.
+
+	6. Map
+	Map là một cấu trúc dữ liệu dạng key-value. Đây là lý do tại sao chúng ta nên đặt tên map bằng cách sử dụng mẫu keyToValueMap. Giả sử chúng ta có một map chứa số lượng đơn đặt hàng cho mỗi khách hàng vậy chúng ta sẽ đặt tên là là customerToOrderCountMap. Hoặc nếu chúng ta có một danh sách các nhà cung cấp cho mỗi ID sản phẩm, biến map sẽ được đặt tên là ProductIdToSuppliersMap.
+
+	// Java
+	final int orderCount = customerToOrderCountMap.get(someCustomer)
+	final List<Supplier> suppliers = productIdToSuppliersMap.get(1234)
+	// Javascript
+	Object.entries(customerToOrderCountMap).map(([customer, orderCount]) => ...)
+
+	7. Các đối tượng (objects)
+	Các biến đối tượng đề cập đến một thể hiện của một lớp. Các lớp là các danh từ được viết bằng chữ cái đầu tiên viết hoa, như Person, Account, hoặc Task. Tên biến đối tượng phải phù hợp với tên lớp liên quan (đối tượng person là của lớp Person, đối tượng account của lớp Account, v.v.). Bạn cũng có thể tự do sử dụng tính từ cho tên đối tượng (ví dụ: completedTask). Điều quan trọng là phải giữ nguyên tên lớp là phần cuối cùng của tên đối tượng.
+	Chúng ta cũng nên để các lớp và các đối tượng ở danh từ ở dạng số ít để phân biệt chúng với các bộ sưu tập (mảng, danh sách và tập hợp). Nhưng có những trường hợp bạn muốn đặt tên cho đối tượng của mình ở dạng số nhiều thì sao? Ví dụ, trường hợp có một đối tượng options làm tham số cuối cùng của hàm. Hoặc trong React, chúng ta gọi đối tượng chứa các thuộc tính cho các thành phần props. Làm thế nào bạn có thể biết nếu một danh từ dạng số nhiều là một đối tượng hoặc một bộ sưu tập? Trong một bộ sưu tập, các item thường cùng loại. Nhưng trong một đối tượng, chúng có thể khác nhau. Mỗi option trong options có thể là một khác nhau và mỗi prop trong props cũng có thể có một loại khác nhau.
+	Nếu có thể, hãy cố gắng tránh sử dụng tên biến đối tượng mà có thể gây nhầm lẫn với tên biến cho một chuỗi hoặc một số. Ví dụ, thay vì đặt tên giá trị hoặc tên đối tượng, bạn có thể sử dụng valueObject hoặc nameObject.
+
+	// Typescript
+	interface Person { nameObject: NameObject, address: Address }
+	const { nameObject } = getPersonById(1234);
+	const fullName = `${nameObject.firstName} ${nameObject.lastName}`;
+	8. Các biến tuỳ chọn
+	Đặt tên các biến tùy chọn sẽ phụ thuộc vào ngôn ngữ lập trình và cách triển khai loại tùy chọn. Trong các ngôn ngữ mà bạn cần mở khóa loại tùy chọn, biến tùy chọn được bao bọc phải được thêm tiền tố và tên biến tùy chọn không được bao bọc thì không có tiền tố.
+	Trong Java, mình sử dụng optional<T> và tên biến là possible<Something>. Sau đó, mình có thể sử dụng các cấu trúc như thế này:
+
+	// Java
+	possibleLoggedInUser.ifPresent(loggedInUser -> loggedInUser.logout());
+	final User currentUser = possibleLoggedInUser.orElse(guestUser);
+	Trong JavaScript + Flow hoặc TypeScript và các ngôn ngữ khác nơi các loại tùy chọn được tạo bằng cách sử dụng bằng cách tập hợp các type, bạn thường không cần bất kỳ tiền tố nào cho các biến tùy chọn:
+
+	// Typescript
+	function addTaxToAmount(amount: number, discount?: number): number {
+	 return 1.2 * (amount — ( discount ?? 0));
+	}
+	9. Đặt tên hàm tham số 
+	Các hàm tham số hoạt động tương tự như các biến bên trong một hàm. Tuy nhiên, có hai trường hợp ngoại lệ: phương thức khởi tạo và phương thức setter. Với hai loại này, mình khuyên nên sử dụng tiền tố hoặc hậu tố cho một tên biến:
+
+	// Java
+	public Person(final Name newName, final Address newAddress) {
+	 name = newName;
+	 address = newAddress;
+	}
+	public void setName(final Name newName) {
+	 name = newName;
+	}
+	Ngoài ra, bạn cũng có thể đặt thêm một dấu gạch dưới ở cuối tên biến, điều này cũng giúp nó dễ đọc hơn một chút:
+
+	// Java
+	public Person(final Name name_, final Address address_) {
+	 name = name_;
+	 address = address_;
+	}
+	public void setName(final Name name_) {
+	 name = name_;
+	}
+	10. Các hằng bất biến
+	Các hằng số bất biến tĩnh là một trường hợp đặc biệt nên hãy tên cho các biến không sử dụng tất cả các chữ viết hoa như kiểu. Ví dụ: TOOLTIP_SHOW_DELAY_IN_MILLISECS. Nếu hằng số tĩnh có thể thay đổi, hãy sử dụng quy ước đặt tên biến thông thường, tham khảo ở đây.
+
+	11. Quy tắc đặt tên chung
+	Tránh viết tắt tối nghĩa
+	Hãy cố gắng tránh viết tắt ít nhất có thể. Tuy nhiên, có nhiều chữ viết tắt thường được sử dụng, như Str cho String, Num cho Number, Prop cho property hoặc Val cho Value. Điều chúng ta cần đặc biệt cố gắng tránh là sử dụng các chữ viết tắt không quá phổ biến trừ khi tên nó quá dài.
+
+	Tránh những cái tên quá ngắn và vô nghĩa
+	Đấy là những cái tên quá ngắn không thực sự chỉ ra biến đó là về cái gì. Đừng sử dụng những tên biến kiểu i hay k, hãy sử dụng tên biến kiểu index hoặc <Something>Index. Ngoài ra, bạn cũng nên tạo thói quen mô tả rõ về biến hơn là đăng các tên đơn giản như num, val hoặc tmp.
