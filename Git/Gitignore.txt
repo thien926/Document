@@ -1,3 +1,8 @@
 
 ============ Gitignore ============
 1.	https://topdev.vn/blog/gitignore-la-gi/
+
+============ Mẫu Gitignore ===========
+
+1.	VisualStudio.gitignore: https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+2.	gitignore: https://github.com/github/gitignore
