@@ -1,0 +1,8 @@
+
+I.	Lỗi: remote: Support for password authentication was removed 
+	1.	Tham khảo: https://200lab.io/blog/cach-giai-quyet-loi-password-authentication-github/
+	2. 	Tham khảo: https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
+	3. 	Giải pháp:
+		3.1 	Từ tài khoản Github của bạn, đi đến Settings => Developer Settings => Personal Access Token => Generate New Token (cung cấp mật khẩu của bạn) => Fillup the form => click Generate token => Copy the generated Token, nó sẽ kiểu như thế này: ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+		3.2 	Cập nhật URL từ xa git remote set-url origin https://<tour_new_token>@github.com/<git_url>
+		3.3 	Kéo một lần: git pull https://<token>@<git_url>.git  Thats It. Bây giờ bạn có thể kéo mã của bạn hoặc đẩy mã của bạn

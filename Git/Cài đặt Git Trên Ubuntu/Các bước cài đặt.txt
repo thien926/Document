@@ -35,3 +35,4 @@
 9.	Tạo local repository và push lên remote repository
 	9.1	git remote set-url add origin https://github.com/thien926/React.git
 	9.2 Tham khảo: https://200lab.io/blog/cach-giai-quyet-loi-password-authentication-github/
+	9.3 Tham khảo: https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
