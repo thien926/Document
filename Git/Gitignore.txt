@@ -6,3 +6,6 @@
 
 1.	VisualStudio.gitignore: https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 2.	gitignore: https://github.com/github/gitignore
+
+=========== TRANG TẠO GITIGNORE ================
+1.	https://www.toptal.com/developers/gitignore
