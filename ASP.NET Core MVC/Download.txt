@@ -1,0 +1,3 @@
+1.	Link cài SDK mới nhất: https://dotnet.microsoft.com/download
+2.	Cài đặt môi trường và công cụ: https://tuhocict.com/cai-dat-moi-truong-va-cong-cu-cho-aspnet-core/
+3.	Cài đặt môi trường: http://www.hiepsiit.net/detail/aspnetcore/asp-net-core/cai-dat-moi-truong-1

@@ -1,0 +1,5 @@
+1.	https://netbeans.apache.org/download/archive/index.html
+2.	https://netbeans.apache.org/download/nb122/nb122.html
+3.	https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+4.	Cài đặt môi trường: https://phanmemcntt.com/cai-dat-moi-truong-java-win-10/
+5.	Cài đặt môi trường: https://niithanoi.edu.vn/huong-dan-tai-va-cai-dat-java-cho-windows.html
