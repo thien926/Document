@@ -1,0 +1,22 @@
+============= REACTJS ===========
+1.	Nắm vững kiến thức căn bản và nâng cao về React, OOP, RESTful API
+2.	Thành thạo và sử dụng nguyên tắc SOLID
+3.	Có kinh nghiệm lập trình với Webpack, Babel, Flux | Redux, ES5/ES6
+4.	Nắm được cơ bản và các nguyên tắc khi phát triển ứng dụng: Coding Convensions, Unit test…
+5.	Nắm được các kiến thức cơbản về UI: HTML, CSS, JS, Javascript, ES6.
+6.	Có kiến thức SVN, Git.
+7. 	Ưu tiên có kinh nghiệm về Context, HOC component, Portals, Ref and DOM, …
+8. 	Ưu tiên có kinh nghiệm về responsive design và front-end optimization.
+
+================= .NET =================
+1.	Nắm vững kiến thức căn bản và nâng cao về .NET CORE MVC, .NET FRAMEWORK
+2. 	Nắm vững kiến thức về OOP, Design Pattern
+3. 	Thành thạo và sử dụng nguyên tắc SOLID
+4. 	Biết viết Unit Test, Test Case
+5. 	Có kinh nghiệm lập trình với các công nghệ CSDL: SQL Server, MongoDb, Redis, Elasticsearch, Oracle
+6. 	Ưu tiên có kinh nghiệm lập trình front-end với: VueJS/ReactJS/AngularJS
+7. 	Biết sử dụng thành thạo ít nhất một công cụ lập trình thông dụng: Visual Studio, MS SQL Server
+8. 	Nắm được cơ bản và các nguyên tắc khi phát triển ứng dụng: Coding Convensions, Unit test…
+9. 	Nắm được các kiến thức cơ bản về UI: HTML, CSS, JS, Javascript, ES6
+10. 	Có kiến thức SVN, Git
+
