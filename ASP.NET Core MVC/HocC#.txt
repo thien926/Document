@@ -1,0 +1,4 @@
+1.	Lập trình hướng đối tượng: https://www.youtube.com/watch?v=WQ9j2sPRstk&list=PL33lvabfss1zRgaWBcC__Bnt5AOSRfU71
+2.	C# cơ bản: https://www.youtube.com/watch?v=9kohr6pMwag&list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK
+3.	https://www.vietjack.com/csharp/cai_dat_moi_truong_csharp.jsp
+4.	https://tuhocict.com/ke-thua-trong-c/
