@@ -1,2 +1,4 @@
 
 1.	EntityFramework Core: https://www.youtube.com/watch?v=CLVJVA9cTuU&list=PL4WEkbdagHIQVbiTwos0E38VghMJA06OT
+2.	Tìm hiểu ASP.NET Core FromForm And FromBody: để post, put dữ liệu (như image, ...)
+3.	Upload Image with React: https://www.youtube.com/watch?v=ORVShW0Yjaw

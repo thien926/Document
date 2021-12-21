@@ -1,0 +1,2 @@
+1.	Partial class là một tính năng của C# cho phép định nghĩa một class trên nhiều file vật lý khác nhau. C# compiler sẽ tự động ghép nối các file mã nguồn này trong quá trình biên dịch.
+	https://tuhocict.com/partial-class-partial-method/

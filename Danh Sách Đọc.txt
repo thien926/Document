@@ -4,6 +4,7 @@ I.	C#
 	3.	Lập trình hướng đối tượng: https://timoday.edu.vn/phan-3-lap-trinh-huong-doi-tuong-trong-c/
 	4.	EntityFramework: https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx
 	5.	EntityFramework Core: https://www.youtube.com/watch?v=CLVJVA9cTuU&list=PL4WEkbdagHIQVbiTwos0E38VghMJA06OT
+	6.	https://xuanthulab.net/ef-core-tao-migration-trong-entityframework-voi-c-csharp.html
 
 II.	Css
 	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height
@@ -17,7 +18,7 @@ III.React
 	4.	https://popper.js.org/
 	5.	https://stackblitz.com/github/remix-run/react-router/tree/main/examples/multi-app?file=server.js
 	6.	https://stackoverflow.com/questions/33996484/using-multiple-layouts-for-react-router-components
-	7.	
+	7.	React with Bootstrap: https://react-bootstrap.github.io/components/dropdowns/
 	8.
 
 IV.	Sping Java
