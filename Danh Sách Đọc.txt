@@ -5,6 +5,7 @@ I.	C#
 	4.	EntityFramework: https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx
 	5.	EntityFramework Core: https://www.youtube.com/watch?v=CLVJVA9cTuU&list=PL4WEkbdagHIQVbiTwos0E38VghMJA06OT
 	6.	https://xuanthulab.net/ef-core-tao-migration-trong-entityframework-voi-c-csharp.html
+	7.	https://www.learnentityframeworkcore.com/configuration/fluent-api/isrequired-method
 
 II.	Css
 	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height
