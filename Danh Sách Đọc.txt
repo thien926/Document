@@ -34,3 +34,5 @@ VI.	Angular
 	2.	https://www.youtube.com/watch?v=jUfEn032IL8
 	3.	https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
 	4.	https://material.angular.io/guides
+VII.	Bootstrap
+	1.	https://bootsnipp.com/
