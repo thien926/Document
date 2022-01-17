@@ -1,0 +1,123 @@
+
+========== THƯ MỤC VÀ TỆP ==========
+1.	TẠO thư mục: #mkdir  [thư mục]
+	#mkdir   /mnt/DuLieu
+	#mkdir   /mnt/DuLieuQuanTrong
+	#mkdir   /mnt/DuLieuTam
+	#mkdir 	/mnt/a\ b	tạo thư mục ‘a b’. \ dùng trước các ký tự đặc biệt
+	#mkdir  -p   /a/b/c/d	: thì sẽ tạo lần lượt các thư mục a, b, c, d
+
+2.	XÓA tập tin và thư mục: #rm  [option] <filename/directory>
+	#rm -r /mnt/sinhvien.txt			: xóa tất cả các tập tin và thư mục con
+	#rm -f /mnt							: xóa không cần hỏi
+	#rm -rf /mnt/Data					: xóa tất cả các tập tin và thư mục con không cần hỏi
+
+3.	XÓA thư mục rỗng: #rmdir  [thư mục]
+
+4.	DI CHUYỂN và đổi tên tệp tin : #mv  <source>  <destination>
+
+5.	COPY, đổi tên tập tin, thư mục: #cp  <tập tin nguồn>  <tập tin đích>
+	#cp /mnt/sinhvien.txt /mnt/DuLieu/thongtinSV.txt
+	#cp /mnt/sinhvien.txt /mnt/DuLieu/sinhvien2.txt /mnt/DuLieuMoi/ : copy 2 tập tin vào thư mục
+	#cp -r /mnt/* /soft : copy các file và thư mục con
+
+6.	Xem tập tin: #more  <tên tập tin>
+	#more 	/mnt/sinhvien.txt
+
+7.	Cat - TẠO tệp hoặc hiển thị nội dung: #cat  <tên tập tin>
+	Lệnh cat còn dùng để tạo tập tin. Ta có thể dùng dấu > hoặc >> (dấu > sẽ tạo mới, dấu >> sẽ nối tiếp vào nội dung có sẵn). Nhấn CTRL-d để kết thúc.
+
+8.	FIND - TÌM tập tin:	#find  [đường dẫn] -name  [tên tập tin/thư mục]
+	-name <file> : tìm theo tên tập tin.
+	-iname <file> : tìm theo tên tập tin không phân biệt hoa thường.
+	-size n<bck> : tìm theo kích thước tập tin.
+	-user uname  : tìm các tập tin được sở hữu bởi uname.
+
+	* viết tắt cho nhóm ký tự
+	? viết tắt cho 1 ký tự
+
+	#find / -name network	: tìm tất cả tệp tin và folder network trong /
+	#find / -name "*n*"
+
+9.	TÌM một chuỗi trong nội dung tập tin: #grep  [expression]  [filename]
+	#grep 	“nguyen” 	/mnt/DuLieu/ThongTinSV.txt	: tìm xem có dòng nào có chữ nguyen trong file ThongTinSV.txt
+
+10.	XEM thư mục hiện hành : #pwd 
+
+11.	LIỆT KÊ nội dung thư mục: #ls  [tùy chọn]  [thư mục]
+	ls  –x  hiển thị trên nhiều cột.
+	ls  –l  (long listing format) hiển thị chi tiết các thông tin của tập tin.
+	ls  –a  (all)  hiển thị tất cả các tập tin kể cả tập tin ẩn. Tập tin ẩn là tập tin có dấu chấm (.) trước tên 
+	
+	#ls 	/mnt
+	#ls	/
+
+12.	NÉN và giải nén:	#gzip/gunzip  [tùy chọn]   [tên tập tin]
+	#gzip 	/mnt/DuLieu/ThongTinSV.txt	/mnt/DuLieuQuanTrong/SV.txt	nén đồng thời 2 file ThongTinSV.txt thành file ThongTinSV.txt.gz  và SV.txt thành SV.txt.gz
+	#cp  /mnt/DuLieu/ThongTinSV.txt.gz   /mnt
+	#gunzip 	/mnt/ThongTinSV.txt.gz
+	#gzip   -r  /mnt/DuLieu/	(recursive) sẽ nén tất cả các tập tin trong thư mục dữ liệu, mỗi tập tin thành một file
+	#unzip  /mnt/a.zip		giải nén file zip
+
+	Có thể chỉ ra mức độ nén cho gzip, sử dụng tùy chọn–fast hoặc tùy chọn –best để cung cấp tỉ lệ nén cao và thấp.
+
+	gzip --fast filename
+	gzip -l filename.gz
+
+	gzip --best filename
+	gzip -l filename.gz
+
+13.	NÉN và giải nén :  #tar  [tùy chọn]  [tập tin đích]  [nguồn]
+	-c (Create), –f (File), –v (Verbose) thường được sử dụng với –c và –f để hiển thị danh sách các file đang được đưa vào trong archive, –x(eXtract) , -t (list) để liệt kê nội dung bên trong archive 
+	Nên sử dụng đường dẫn tương đối khi sử dụng lệnh tar. Khi sử dụng đường dẫn tuyệt đối cho các file cần gom thì tự động sẽ được bỏ đi dấu ‘/’. 
+
+14.	Cài đặt trình soạn thảo văn bản Vim: sudo apt install -y vim 
+	Tham khảo : https://kipalog.com/posts/Lam-quen-VIM-trong-5-phut
+
+	Mở file: vim "tên file"
+
+	i -- Bật chế độ chèn text
+	R -- Bật chế độ thay thế
+	x -- Bật chế độ xóa kí tự ở vị trí con trỏ
+
+	Lưu và thoát : nhấn ESC
+		-	:q 		-- Thóa khỏi Vim
+		-	:q! 	-- Thoát không cần lưu
+		-	:w 		-- Lưu file
+		-	:w! 	-- Ghi file (ghi đè)
+		-	:wq 	-- Lưu file và thoát
+
+
+=============== LẬP TRỈNH SHELL =================
+
+1.	Chạy file bash : $ ./scriptname
+
+2.
+
+============== ARRAY IN LẬP TRÌNH SHELL ===========
+
+1.	Khai báo mảng:
+	a=(4 -1 2 66 10)
+	a=( mot hai ba bon nam sau bay tam chin muoi “muoi mot” “muoi hai” )
+
+2.	Lấy số phần tử của mảng
+	n=${#a[@]}
+
+3.	Lấy giá trị phần tử $i của mảng
+	v=${a[$i]} 
+
+4.	Gán:
+	a[$i]=1
+
+5.	In nội dung 1 mảng tại chỉ mục cho trước
+	echo ${array_var[0]}
+	
+6.	In tất cả các giá trị trong mảng
+	echo ${array_var[*]} hoặc echo ${array_var[@]}
+
+7.	In chiều dài mảng: echo ${#array_var[*]}
+
+
+=================== FILE IN BASHSHELL ===================
+
+	
