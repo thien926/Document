@@ -90,3 +90,20 @@ Hoặc: npm install redux react-redux @reduxjs/toolkit
         +   Thư viện Http Client dựa trên Promise
         +   Tài liệu tham khảo: github.com/axios/axios
 3.  npm install redux-thunk --save
+
+============================ MATERIAL UI ========================
+1.	npm install @mui/material @emotion/react @emotion/styled
+
+2.	Tại index.html
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+3.	npm install @mui/icons-material  : sd các icon 
+4.  npm install @mui/styles     :   thiết lập css-in-js
+
