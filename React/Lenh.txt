@@ -107,3 +107,16 @@ Hoặc: npm install redux react-redux @reduxjs/toolkit
 3.	npm install @mui/icons-material  : sd các icon 
 4.  npm install @mui/styles     :   thiết lập css-in-js
 
+=========================== ESLINT ==================
+1.	npm install eslint @babel/core @babel/eslint-parser --save-dev
+2.	Tạo file .eslintrc.js 
+	module.exports = {
+    		parser: "@babel/eslint-parser",
+    		parserOptions: {
+        		requireConfigFile: false,
+    		},
+    		rules: {
+        		semi: 1
+    		}
+	};
+
