@@ -38,3 +38,6 @@ VI.	Angular
 	4.	https://material.angular.io/guides
 VII.	Bootstrap
 	1.	https://bootsnipp.com/
+
+VIII.	Javascript
+	1.	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=vi

@@ -7,6 +7,8 @@ I.	VSCode
 	3.	EditorConfig for VS Code
 	4.	One Dark Pro
 	5.	Prettier - Code formatter : Format code
+	6.	EditorConfig for VS Code : https://www.youtube.com/watch?v=dSjLpzp_uOk&list=PLJ5qtRQovuEOoKffoCBzTfvzMTTORnoyp&index=119
+
 
 
 	
