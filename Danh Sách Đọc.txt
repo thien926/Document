@@ -41,3 +41,8 @@ VII.	Bootstrap
 
 VIII.	Javascript
 	1.	generator function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=vi
+
+IX.	Image
+	1.	https://graphicdesign.stackexchange.com/questions/35966/how-to-remove-the-background-color-from-and-animated-gif-image/48705
+	2.	https://www.online-image-editor.com/
+
