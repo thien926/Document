@@ -1,0 +1,50 @@
+Một Số Phím Tắt Thường Dùng Trong Visual Studio 2012
+1. Liên quan đến Debug,Run code,Xem định nghĩa hàm
+	•F9:Dặt break point.
+	•Ctrl+Shift+F9:Xóa toàn bộ break point đã đặt.
+	•F10:Debug qua từng dòng lệnh của hàm/file đang debug(không vào hàm con của file đang debug,hay hàm con
+	 được tham chiều từ file khác).
+	•F11:Debug vào chi tiết hàm con của file đang debug,hay hàm con được tham chiếu từ file khác.
+	•F5:Chạy chương trình:
+	•Nếu đã đặt break point thì sẽ dừng tại điểm đặt break point đầu tiên để có thể debug.
+	•Trường hợp có nhiều break point thì cứ mỗi lần nhấn F5 sẽ nhảy đến break point tiếp theo.
+	•Ctrl+F5:Chạy chương trình,dù có đặt break point thì cũng bỏ qua,chạy ra kết quả luôn.
+	•F12:Xem định nghĩa của1hàm(đặt chuột tại tên hàm rồi nhấn F12)
+	•Ctrl+Shift+B:Build solution.
+2. Liên quan đến Comment code
+  	•Ctrl+K+C:Vô hiệu hóa một vùng code thành comment.
+  	•Ctrl+K+U:Bỏ comment của vùng code được chọn(ngược với lệnh trên Ctrl+K+C).
+3. Liên quan đến Format code
+  	•Ctrl+K+D:Format lại toàn bộ code của trang đang chỉnh sửa.
+  	•Ctrl+K+F:Chỉ format vùng code được bôi đen.
+  	•Ctrl+U:Chuyển các ký tự bôi đen thành chữ thường.
+  	•Ctrl+Shift+U:Chuyển các ký tự bôi đen thành chữ HOA.
+4. Liên quan đến Bookmark code
+  	•Ctrl+K+K:Đặt điểm bookmark.
+ 	•Ctrl+K+P:Nhảy đến điểm bookmark trước đó.
+  	•Ctrl+K+N:Nhảy đến điểm bookmark tiếp theo.
+5. Liên quan đến Thao tác code
+  	•Ctrl+L:Xóa1dòng code mà trỏ chuột đang đứng.
+   	•Ctrl+Shift+dấu ngoặc đóng}:Bôi đen block code của for(),while(),...
+  	•Shift+Home:Bôi đen từ vị trí chuột ngược lại đầu dòng.
+       	•Shift+End:Bôi đen từ vị trí chuột đến cuối dòng.
+   	•Ctrl+Shift+H:Tìm kiếm và thay thế.
+  	•Ctrl+dấu phẩy;:Tìm kiếm trong toàn solution.
+  	•Ctrl+K+R:Find All References,dùng để tìm tất cả các tham chiếu của biển,phương thức,class ... trong project.
+   	•Shift+F12:Find All References,dùng để tìm tất cả các tham chiếu của biến,phương thức,class,... trong project.
+  	•Shift+Alt+T:Đổi chỗ dòng tại vị trí chuột với dòng dưới nó.
+   	•Alt+Shift+F10+Enter:Hiện thực các phương thức kế thừa từ Abstract class hay Interface.
+   	•Alt+Shift+F10+Enter:Đổi tên biến hay tên hàm đồng loạt khi tên biến hoặc tên hàm khai báo ngay từ đầu thay đổi.
+  	•Ctrl+R+E:Sinh ra getter,setter auto.
+6. Liên quan đến Thu gọn code
+  	•Ctrl+M+H:Thu gọn vùng code được bôi đen(Lúc này sẽ hiển thị một dấu+,click vào sẽ mở vùng code đó ra).
+  	•Ctrl+M+U:Hủy bỏ thu gọn code của vùng code được chọn(ngược với lệnh trên Ctrl+M+H).
+  	•Ctrl+M+O:Thu gọn toàn bộ code của trang đang chỉnh sửa,chỉ còn thấy tên khai báo của phương thức.
+  	•Ctrl+M+P:Mở rộng toàn bộ code ra như cũ(ngược với lệnh trên Ctrl+M+O).
+      	#region ... #endregion:Sử dụng đặt #regionởđầu và #endregionởcuối đoạn code muốn thu gọn.
+7. Liên quan đến Snippet code
+  	•Gõ cw xong nhấn phím Tab:Tạo nhanh câu lệnh Console.WriteLine();
+  	•Gõ ctor xong nhấn phím Tab:Tạo nhanh hàm constructor
+  	•Gỗ try xong nhấn phím Tab:Tạo nhanh khối try catch
+  	•Gõ for xong nhấn phím Tab:Tạo nhanh câu lệnh for(inti=0;i<length;i++){}
+  	•..còn nhiều nữa các bạn gõ thử:if,else,foreach,prop,propfull,tryf ... rồi tab để xem kết quả nhé
