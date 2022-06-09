@@ -6,6 +6,7 @@ I.	C#
 	5.	EntityFramework Core: https://www.youtube.com/watch?v=CLVJVA9cTuU&list=PL4WEkbdagHIQVbiTwos0E38VghMJA06OT
 	6.	https://xuanthulab.net/ef-core-tao-migration-trong-entityframework-voi-c-csharp.html
 	7.	https://www.learnentityframeworkcore.com/configuration/fluent-api/isrequired-method
+	8.	https://xuanthulab.net/bien-hang-so-kieu-du-lieu-va-nhap-xuat-du-lieu-c-net-core.html	
 
 II.	Css
 	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height
