@@ -1,0 +1,22 @@
+1. assembly
+2. out
+3. virtual
+4. abstract
+5. using (IDisposable)
+6. private, protected, internal, public (https://openplanning.net/10439/csharp-access-modifiers#:~:text=internal%20l%C3%A0%20%C4%91%E1%BB%99%20truy%20c%E1%BA%ADp,NET%20n%C3%A0o.)
+7. Generics trong C#
+8. Console.WriteLine(Power(2,3));
+9. sealed
+10. tuple
+
+
+
+
+
+
+
+
+
+
+
+

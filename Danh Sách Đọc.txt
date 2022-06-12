@@ -7,6 +7,12 @@ I.	C#
 	6.	https://xuanthulab.net/ef-core-tao-migration-trong-entityframework-voi-c-csharp.html
 	7.	https://www.learnentityframeworkcore.com/configuration/fluent-api/isrequired-method
 	8.	https://xuanthulab.net/bien-hang-so-kieu-du-lieu-va-nhap-xuat-du-lieu-c-net-core.html	
+	9. 	Các vấn đề gặp với C#: 
+		https://www.c-sharpcorner.com/
+		https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/avoiding-cross-site-scripting-xss-attacks-with-antixss-in/
+		https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/best-way-to-prevent-cross-site-request-forgery-attacks-in-mv/
+
+	
 
 II.	Css
 	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height
