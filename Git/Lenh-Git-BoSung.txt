@@ -1,0 +1,5 @@
+1.	git push origin --delete master : xóa branch
+	git branch -d master
+2.	git branch -m master main : đổi tên nhánh mặc định thành main
+3.	git remote set-url origin git@gitlab.com:thien.nn/practice2.git   : đổi url của remote tên là origin thành j j đó
+
