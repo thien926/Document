@@ -12,7 +12,7 @@ I.	C#
 		https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/avoiding-cross-site-scripting-xss-attacks-with-antixss-in/
 		https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/best-way-to-prevent-cross-site-request-forgery-attacks-in-mv/
 	10.	https://devblogs.microsoft.com/odata/up-running-w-odata-in-asp-net-6/
-	
+	11.	https://www.nuget.org/packages/Microsoft.VisualStudio.Web.CodeGeneration.Design/
 
 II.	Css
 	1.	https://developer.mozilla.org/en-US/docs/Web/CSS/height

@@ -8,7 +8,10 @@
 8. Console.WriteLine(Power(2,3));
 9. sealed
 10. tuple
-
+11. Call Api with asp.net mvc: https://www.tutorialsteacher.com/webapi/consume-web-api-get-method-in-aspnet-mvc
+				https://www.c-sharpcorner.com/article/consuming-asp-net-web-api-rest-service-in-asp-net-mvc-using-http-client/
+12. Generate code: https://www.nuget.org/packages/Microsoft.VisualStudio.Web.CodeGeneration.Design/
+				
 
 
 
