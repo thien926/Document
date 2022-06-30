@@ -1,4 +1,4 @@
-
+# https://www.gitignore.io/
 # Sử dụng # để comment và có thể để cách dòng cho dễ đọc.
 # Đơn giản nhất là tên file cần ignore: example.exe
 # Hay cả thư mục: example_folder/
@@ -8,6 +8,7 @@
 # Trường hợp khác của 1 * nếu bạn chỉ rõ đường dẫn ví dụ: config/*.xml thì nó chỉ có hiệu lực cho các file config/abc.xml mà không có hiệu lực cho các file config/sub/abc.xml.
 # Sử dụng ** để có hiệu lực cho các thư mục không cần định rõ tên. Ví dụ: **/foo nó sẽ có hiệu lực cho tất cả file hoặc thư mục có tên là foo ở mọi nơi trong project.
 # Hay sử dụng kiểu folder/** để có hiệu lực cho tất cả các file bên trong thư mục.
+
 
 # git rm -r --cached .
 # git add

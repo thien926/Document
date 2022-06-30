@@ -8,6 +8,6 @@
 2.	gitignore: https://github.com/github/gitignore
 
 =========== TRANG TẠO GITIGNORE ================
-1.	https://www.toptal.com/developers/
+1.	https://www.gitignore.io/
 2.	git rm -r --cached .
 3.	git add.
