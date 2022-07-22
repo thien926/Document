@@ -53,3 +53,5 @@ IX.	Image
 	1.	https://graphicdesign.stackexchange.com/questions/35966/how-to-remove-the-background-color-from-and-animated-gif-image/48705
 	2.	https://www.online-image-editor.com/
 
+X.	Readme
+	1.	https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
