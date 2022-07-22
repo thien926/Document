@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 👨‍💻 All of my projects are available at [https://avatars.githubusercontent.com/u/52367055?s=400&u=fff34b3dec27b5e8216a2c6ea57a23a59a9e2a73&v=4](https://avatars.githubusercontent.com/u/52367055?s=400&u=fff34b3dec27b5e8216a2c6ea57a23a59a9e2a73&v=4)
+- 👨‍💻 All of my projects are available at [https://github.com/thien926](https://github.com/thien926)
 
 - 💬 Ask me about **C#, React, Angular**
 
