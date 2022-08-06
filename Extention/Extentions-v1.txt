@@ -4,12 +4,11 @@ I.  VSCode
 	2.	vscode-icons : icon cho thư mục và file trong vscode
     3.  Prettier - Code formatter : Format code
     4.  Path Intellisense : hiện tên file
-    5.  vscode-icons
-    6.  gitignore
-    7.  GitLens — Git supercharged
-    8.  Settings Sync
-    9.  Bracket Pair Colorizer
-    10. Docker
+    5.  gitignore
+    6.  GitLens — Git supercharged
+    7.  Settings Sync
+    8.  Bracket Pair Colorizer
+    9. Docker
 
 II. C#
     1.  Auto Import
