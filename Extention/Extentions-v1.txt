@@ -4,13 +4,15 @@ I.  VSCode
 	2.	vscode-icons : icon cho thư mục và file trong vscode
     3.  Prettier - Code formatter : Format code
     4.  Path Intellisense : hiện tên file
-    5.  gitignore
-    6.  GitLens — Git supercharged
-    7.  Settings Sync
-    8.  Bracket Pair Colorizer
-    9. Docker
+    5.  Settings Sync
+    6.  Bracket Pair Colorizer
+    7. Docker
 
-II. C#
+II. Git
+    1.  gitignore
+    2.  GitLens — Git supercharged
+
+III. C#
     1.  Auto Import
     2.  Auto-Using for C#
     3.  C#
@@ -19,12 +21,12 @@ II. C#
     6.  NuGet Gallery
     7.  ASP.NET Core Snippets
 
-III.Html
+IV.Html
     1.  Auto Close Tag
     2.  Auto Rename Tag
     3.  Bootstrap 3 Snippets
     
-IV. React
+V. React
     1.  Auto Import
     2.  EditorConfig for VS Code
     3.  ES7+ React/Redux/React-Native snippets
