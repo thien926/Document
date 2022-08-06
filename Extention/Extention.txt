@@ -91,3 +91,6 @@ II.	Extentions cần thiết nhất cho HTML
 	1.	Bootstrap 3 Snippets 
 	2.	Auto Close Tag 
 	3.	Auto Rename Tag
+
+
+============== How to use Settings Sync Extentions : https://www.youtube.com/watch?v=sp7S_3hCtS8 ==========
