@@ -1,0 +1,35 @@
+I.  VSCode
+    1.  Code Spell Checker
+		Đây là một trình kiểm tra chính tả cơ bản hoạt động tốt với mã camelCase . Về cơ bản nó giúp trong bắt lỗi chính tả phổ biến trong khi vẫn giữ các số dương tính giả thấp.
+	2.	vscode-icons : icon cho thư mục và file trong vscode
+    3.  Prettier - Code formatter : Format code
+    4.  Path Intellisense : hiện tên file
+    5.  vscode-icons
+    6.  gitignore
+    7.  GitLens — Git supercharged
+    8.  Settings Sync
+    9.  Bracket Pair Colorizer
+    10. Docker
+
+II. C#
+    1.  Auto Import
+    2.  Auto-Using for C#
+    3.  C#
+    4.  C# Extensions
+    5.  C# Snippets
+    6.  NuGet Gallery
+    7.  ASP.NET Core Snippets
+
+III.Html
+    1.  Auto Close Tag
+    2.  Auto Rename Tag
+    3.  Bootstrap 3 Snippets
+    
+IV. React
+    1.  Auto Import
+    2.  EditorConfig for VS Code
+    3.  ES7+ React/Redux/React-Native snippets
+    4.  ESLint
+    5.  html to JSX
+    6.  Prettier - Code formatter
+    7.  IntelliCode (nếu có thể)

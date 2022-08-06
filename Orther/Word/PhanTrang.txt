@@ -1,0 +1,7 @@
+Phân trang word
+1. Layout -> Break -> Next Page
+2. Insert -> Page Number -> Page Number Format -> Start at
+   Insert -> Page Number -> Bottom Page
+   Tick bỏ Link to Previous
+   Xóa trang đầu cho mục lục
+   

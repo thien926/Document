@@ -1,0 +1,27 @@
+1. Auto Close Tag
+2. Auto Import
+3. Auto Rename Tag
+4. Auto-Using for C#
+5. Bootstrap 3 Snippets
+6. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+7. Bracket Pair Colorizer
+8. C#
+9. C# Extensions
+10. C# Snippets
+11. Code Spell Checker
+12. Docker
+13. EditorConfig for VS Code
+14. ES7+ React/Redux/React-Native snippets
+15. ESLint
+16. gitignore
+17. GitLens — Git supercharged
+18. html to JSX
+19. IntelliCode
+20. Live Server
+21. NuGet Gallery
+22. Path Intellisense
+23. Prettier - Code formatter
+24. Remote - SSH
+25. Remote - SSH: Editing Configuration Files
+26. Settings Sync
+27. vscode-icons
