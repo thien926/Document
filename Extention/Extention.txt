@@ -25,7 +25,7 @@ III.Angular
 	1. Path Intellisense 
 	2. Angular Snippets
 	3. Angular2-Switcher
-	4. Angular Files
+	4. Angular Files (generate component)
 	5. REST Client
 	6. JSON to TS
 	7. Angular Language Service

@@ -1,0 +1,3 @@
+- npm update -g node 
+- npm install -g npm@latest 
+- 
