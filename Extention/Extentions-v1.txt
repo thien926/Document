@@ -6,7 +6,7 @@ I.  VSCode
     4.  Path Intellisense : hiện tên file
     5.  Settings Sync
     6.  Bracket Pair Colorizer
-    7. Docker
+    7.  Docker
 
 II. Git
     1.  gitignore

@@ -10,7 +10,6 @@ I.	VSCode
 	6.	EditorConfig for VS Code : https://www.youtube.com/watch?v=dSjLpzp_uOk&list=PLJ5qtRQovuEOoKffoCBzTfvzMTTORnoyp&index=119
 
 
-
 	
 II.	Html
 	1.	Bootstrap 3 Snippets - cần 	
@@ -21,7 +20,7 @@ II.	Html
 	6.	Auto Rename Tag : đổi tên thẻ mở thì thẻ đóng đổi theo - cần
 
 
-III.Angular
+III.	Angular
 	1. Path Intellisense 
 	2. Angular Snippets
 	3. Angular2-Switcher
@@ -32,6 +31,10 @@ III.Angular
 	8. Angular2-Inline
 	9.  TSLint
 	10. Material Icon Theme (có vscode-icons thay thế rồi)
+	11. JavaScript and TypeScript Nightly
+	12. Auto Import
+	13. TypeScript Importer
+	
 
 IV.	React
 	1.	ESLint - cần (extention tra lỗi)
@@ -79,6 +82,12 @@ V.	C#
 	4.	ASP.NET Core Snippets
 	5.	NuGet Gallery
 
+VI. Git
+    	1.  gitignore
+    	2.  GitLens — Git supercharged
+
+VII. Docker
+	1. Docker
 
 =============================================================================================
 
