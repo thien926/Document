@@ -1,9 +1,25 @@
+- node -v
+- npm -v
 - npm update -g node 
 - npm install -g npm@latest 
+- npm install angular -g
 - npm install -g @angular/cli
 - ng version
 
 # =========== Create Project ============
 - ng new [project-name]
-- ng serve : run
-- ng g c header --skip-tests
+- ng serve : run (or ng.cmd serve)
+- ng g c [component-name] --skip-tests
+- ng g pipe [pipeName] --flat --skip-tests => example: ng g pipe multiplication --flat --skip-tests
+- ng g module app-routing --flat --module=app
+- ng g service [serviceName]
+
+# =========== Sử dụng css như bootstrap có 2 bước =======
+1. npm i --save bootstrap@4
+2. khai báo sử dụng trong angular.js
+ "styles": [
+ 	"node_modules/bootstrap/dist/css/bootstrap.min.css",
+ 	"src/styles.css"
+  ]
+# ==========
+

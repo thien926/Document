@@ -1,0 +1,20 @@
+Việc xác thực đăng nhập của bạn được lưu trữ bởi Git một cách riêng biệt trên máy tính của bạn. Để đăng xuất hoàn toàn khỏi tài khoản Git của bạn, bạn cần phải xóa các thông tin đăng nhập đã được lưu trữ trên máy tính của bạn.
+
+Nếu bạn đã sử dụng HTTPS để kết nối với Git, bạn có thể thử xóa các thông tin đăng nhập được lưu trữ trong trình duyệt web của bạn. Bạn có thể thực hiện các bước sau để làm điều này:
+
+    1.  Mở trình duyệt web của bạn và truy cập vào trang web https://github.com.
+    2. Nhấn vào biểu tượng avatar ở góc trên bên phải của trang web.
+    3. Chọn Settings.
+    4. Chọn Applications.
+    5. Tìm và chọn ứng dụng Git mà bạn muốn đăng xuất.
+    6. Nhấn nút Revoke access để xóa thông tin đăng nhập của ứng dụng đó.
+
+
+Nếu bạn đã sử dụng SSH để kết nối với Git, bạn cần phải xóa khóa công khai SSH khỏi tài khoản Git của bạn. Bạn có thể thực hiện các bước sau để làm điều này:
+
+    1 .Mở trình duyệt web của bạn và truy cập vào trang web https://github.com.
+    2 .Nhấn vào biểu tượng avatar ở góc trên bên phải của trang web .
+    3 .Chọn Settings.
+    4 .Chọn SSH and GPG keys.
+    5 .Tìm và xóa khóa công khai SSH mà bạn muốn đăng xuất.
+    6 .Sau đó, bạn cần phải xóa khóa công khai SSH khỏi máy tính của bạn bằng cách xóa tệp .pub tương ứng trong thư mục ~/.ssh của bạn.
