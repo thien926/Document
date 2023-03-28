@@ -1,0 +1,15 @@
+1.  Spring Tools 4
+    Để tạo Repository từ Entity trong Eclipse, bạn có thể sử dụng Spring Tools 4, một plugin cho Eclipse hỗ trợ phát triển ứng dụng Spring Boot.
+
+    Bước 1: Cài đặt Spring Tools 4
+        - Mở Eclipse và chọn Help -> Eclipse Marketplace
+        - Tìm kiếm "Spring Tools 4" trong ô tìm kiếm
+        - Nhấn vào nút "Install" để cài đặt plugin
+    Bước 2: Tạo Entity
+        - Tạo một Entity bằng cách click chuột phải vào thư mục src/main/java trong project -> New -> Class
+        - Đặt tên cho Entity và định nghĩa các trường (fields) và phương thức getter/setter
+
+
+
+
+
