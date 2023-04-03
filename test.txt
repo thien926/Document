@@ -1,2 +1,2 @@
-test git conflict máy 2 
+test git conflict máy 2 - lần 2 
 test git conflict máy 1
