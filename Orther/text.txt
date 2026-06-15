@@ -1,0 +1,5 @@
+Hãy viết tài liệu cho dữ liệu trên, cụ thể, chi tiết, có ví dụ càng tốt
+Đừng viết lang mang quá, tập trung vào thông tin tôi cung cấp thôi
+Cuối cùng có phần "Tổng kết" là summary các ý trên
+Nhớ nếu có thì hãy phân cấp rõ ràng các ý
+Ví dụ thì viết ở cuối cùng
