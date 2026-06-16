@@ -58,4 +58,44 @@
 
 28. [Annotation là gì?](Java/028_Annotation.md)
 
+29. [Các cách DI (Dependency Injection) trong Spring](Java/029_Các_cách_DI_(Dependency_Injection)_trong_Spring.md)
+
 ## 2. Sql
+
+1. [Sự khác nhau giữa Primary Key và Foreign Key](Sql/001_Sự_khác_nhau_giữa_Primary_Key_và_Foreign_Key.md)
+
+2. [Sự khác nhau giữa WHERE và HAVING](Sql/002_Sự_khác_nhau_giữa_WHERE_và_HAVING.md)
+
+3. [Thứ tự sql và Tại sao WHERE không sử dụng trực tiếp các hàm tổng hợp](Sql/003_Thứ_tự_sql_và_Tại_sao_WHERE_không_sử_dụng_trực_tiếp_các_hàm_tổng_hợp.md)
+
+4. [Sự khác nhau giữa DELETE TRUNCATE và DROP](Sql/004_Sự_khác_nhau_giữa_DELETE_TRUNCATE_và_DROP.md)
+
+5. [Các hàm tổng hợp (Aggregate Functions) cơ bản](Sql/005_Các_hàm_tổng_hợp_(Aggregate_Functions)_cơ_bản.md)
+
+6. [Giá trị NULL trong SQL là gì? Nó có khác số 0 không?](Sql/006_Giá_trị_NULL_trong_SQL_là_gì_Nó_có_khác_số_0_không.md)
+
+7. [Nêu các kiểu JOIN thường gặp và sự khác biệt giữa chúng](Sql/007_Nêu_các_kiểu_JOIN_thường_gặp_và_sự_khác_biệt_giữa_chúng.md)
+
+8. [Phân biệt UNION và UNION ALL](Sql/008_Phân_biệt_UNION_và_UNION_ALL.md)
+
+9. [Làm sao để tìm các dữ liệu bị trùng lặp trong một bảng?](Sql/009_Làm_sao_để_tìm_các_dữ_liệu_bị_trùng_lặp_trong_một_bảng.md)
+
+10. [Subquery (Truy vấn con) là gì? Có mấy loại?](Sql/010_Subquery_(Truy_vấn_con)_là_gì_Có_mấy_loại.md)
+
+11. [Index là gì?](Sql/011_Index_là_gì.md)
+
+12. [Tại sao Index giúp tăng tốc truy vấn?](Sql/012_Tại_sao_Index_giúp_tăng_tốc_truy_vấn.md)
+
+13. [Tại sao KHÔNG NÊN lạm dụng Index?](Sql/013_Tại_sao_KHÔNG_NÊN_lạm_dụng_Index.md)
+
+14. [Nguyên tắc vàng khi dùng Index](Sql/014_Nguyên_tắc_vàng_khi_dùng_Index.md)
+
+15. [Cách index hoạt động](Sql/015_Cách_index_hoạt_động.md)
+
+16. [CTE (Common Table Expression) là gì? Khi nào nên dùng thay cho Subquery?](Sql/016_CTE_(Common_Table_Expression)_là_gì_Khi_nào_nên_dùng_thay_cho_Subquery.md)
+
+17. [Optimize Query là gì](Sql/017_Optimize_Query_là_gì.md)
+
+18. [Các cách tối ưu query phổ biến](Sql/018_Các_cách_tối_ưu_query_phổ_biến.md)
+
+19. [Phân biệt Query, View, Proceduce, Function trong sql](Sql/019_Phân_biệt_Query_View_Proceduce_Function_trong_sql.md)

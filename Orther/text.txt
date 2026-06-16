@@ -3,3 +3,6 @@ Hãy viết tài liệu cho dữ liệu trên, cụ thể, chi tiết, có ví d
 Cuối cùng có phần "Tổng kết" là summary các ý trên
 Nhớ nếu có thì hãy phân cấp rõ ràng các ý
 Ví dụ thì viết ở cuối cùng
+
+Viết lại cho tôi, có tổng kết
+Thêm ví dụ ở cuối cùng
