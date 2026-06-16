@@ -1,4 +1,4 @@
-# Phụ lục nội dung thư mục Orther/Study/Java
+# Phụ lục
 
 ## 1. Java
 
