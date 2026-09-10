@@ -1,6 +1,6 @@
 # Spring Framework là gì?
 
-**Spring Framework** là một framework mã nguồn mở phổ biến dành cho nền tảng Java, được thiết kế nhằm đơn giản hóa quá trình phát triển các ứng dụng doanh nghiệp (Enterprise Applications).
+**Spring Framework** là một framework mã nguồn mở ngôn ngữ Java, được thiết kế nhằm đơn giản hóa quá trình phát triển các ứng dụng.
 
 Spring cung cấp nhiều cơ chế và thư viện hỗ trợ lập trình viên xây dựng các ứng dụng:
 
