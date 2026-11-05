@@ -14,11 +14,12 @@ Mục tiêu của SOLID là giúp phần mềm:
 
 SOLID gồm 5 nguyên lý:
 
-1. Single Responsibility Principle (SRP)
-2. Open/Closed Principle (OCP)
-3. Liskov Substitution Principle (LSP)
-4. Interface Segregation Principle (ISP)
-5. Dependency Inversion Principle (DIP)
+1. **Single Responsibility Principle (SRP)**: Nguyên tắc đơn nhiệm : 
+Mỗi lớp (Class) chỉ nên đảm nhận **một trách nhiệm duy nhất**.
+2. **Open/Closed Principle (OCP)**: Nguyên tắc đóng/mở: Có thể thêm chức năng mới nhưng không nên sửa code cũ đã hoạt động ổn định.
+3. **Liskov Substitution Principle (LSP)**: Nguyên tắc thay thế Liskov: Các đối tượng của lớp con phải có khả năng thay thế hoàn toàn đối tượng của lớp cha mà không làm chương trình bị lỗi.
+4. **Interface Segregation Principle (ISP)**: Nguyên tắc phân tách giao diện: Không nên tạo một Interface quá lớn. Nên chia thành nhiều Interface nhỏ với mục đích cụ thể. Các lớp chỉ cần triển khai những phương thức mà chúng thực sự sử dụng.
+5. **Dependency Inversion Principle (DIP)**: Nguyên tắc đảo ngược phụ thuộc: Module cấp cao không nên phụ thuộc trực tiếp vào module cấp thấp. Cả hai nên phụ thuộc vào abstraction (Interface). Chi tiết triển khai phải phụ thuộc vào abstraction, không phải ngược lại.
 
 ---
 

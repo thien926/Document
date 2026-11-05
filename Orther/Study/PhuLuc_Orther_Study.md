@@ -62,6 +62,12 @@
 
 30. [OOP](Java/030_OOP.md)
 
+31. [RESTful API là gì?](Java/031_RESTful_API.md)
+
+32. [Design Pattern](Java/032_Design_Pattern.md)
+
+33. [Bạn đã sử dụng Design Pattern nào trong dự án?](Java/033_Ban_da_su_dung_Design_Pattern_nao_trong_du_an.md)
+
 ## 2. Sql
 
 1. [Sự khác nhau giữa Primary Key và Foreign Key](Sql/001_Sự_khác_nhau_giữa_Primary_Key_và_Foreign_Key.md)
@@ -101,3 +107,8 @@
 18. [Các cách tối ưu query phổ biến](Sql/018_Các_cách_tối_ưu_query_phổ_biến.md)
 
 19. [Phân biệt Query, View, Proceduce, Function trong sql](Sql/019_Phân_biệt_Query_View_Proceduce_Function_trong_sql.md)
+
+
+## 3. company
+
+1. [Những câu có thể gặp](Company/001_Nhung_cau_hoi_co_the_gap.md)
