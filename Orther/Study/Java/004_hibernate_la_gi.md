@@ -36,7 +36,7 @@ Nhờ đó:
 
 ## Bản chất của Hibernate
 
-Hibernate là một **implementation cụ thể của chuẩn JPA (Java Persistence API)**.
+Hibernate thư viện chứa hàng nghìn dòng code, hiện thực hóa (implementation) các đặc tả của JPA. Hibernate sẽ tự động sinh câu lệnh SQL, mở kết nối JDBC, ánh xạ table thành object và quản lý bộ nhớ đệm.
 
 Quan hệ giữa chúng:
 
